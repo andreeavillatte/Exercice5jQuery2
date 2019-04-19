@@ -1,0 +1,54 @@
+<!-- ne pas modifier le html et le head -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Exercice5jQuery2</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <!-- START Bootstrap-Cookie-Alert -->
+    <div class="container">
+      <!-- container de la page pour mise en forme bootstrap, ne pas toucher -->
+      <main>
+        <div class="container">
+        <div class="card-deck p-2">
+          <div class="card bg-primary">
+            <div class="card-body bg-warning">
+              <h4 class="card-title font-weight-bolder">Exercice 5 :</h4>
+              <p class="card-text">Quand un champ a le focus, définir sa bordure à 1px solid green. Quand le champ perd le focus, définir la bordure à 1px solid red.</p>
+              </div>
+          </div>
+          <div class="card" id="acacher">
+            <div class="card-body">
+              <p class="card-text"></p>
+              <form>
+                <label for="lastName" class="col-sm-4 col-form-label">Nom : </label>
+                <input type="text" name="lastName" id="lastName" /><br>
+                <label for="firstName" class="col-sm-4 col-form-label">Prénom : </label>
+                <input type="text" name="firstName" id="firstName" /><br>
+                <button type="button" name="button">Envoyer</button>
+              </form>
+          </div>
+          </div>
+        </div>
+        </div>
+      </main>
+    </div>
+    <!-- scripts boostrap -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="assets/js/main.js"></script> <!--  mon script js perso -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    </body>
+
+</html>
